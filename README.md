@@ -1,4 +1,4 @@
-PC Building Simulator Co-op 0.5.0 (test version)
+PC Building Simulator Co-op 0.5.0
 ================================================
 
 Play the career together: one player hosts, the others join the host's workshop.
@@ -6,6 +6,8 @@ Shared: money, shop orders, inventory, deliveries, jobs, emails, days, the PCs o
 (including on/off), PCs being carried, storage, and desk peripherals.
 Not shared yet: furniture, the post-it board, what is on a running PC's screen. Other players
 look like a bean in the color they picked, with their name above it.
+
+Was made with Claude opus 5.5
 
 New in 0.5.0
   - A new co-op window (F7) with Host / Join tabs, your Radmin address shown for the host,

@@ -1,0 +1,18 @@
+﻿Third-party software in this package
+====================================
+
+BepInEx 5.4.23.5 (win x64), unmodified official release
+  https://github.com/BepInEx/BepInEx  - MIT License, see BepInEx-LICENSE.txt
+  It ships these libraries in BepInEx\core, each under its own license (all MIT):
+    HarmonyX (0Harmony.dll)       https://github.com/BepInEx/HarmonyX
+    MonoMod (MonoMod.*.dll)       https://github.com/MonoMod/MonoMod
+    Mono.Cecil (Mono.Cecil*.dll)  https://github.com/jbevain/cecil
+  The Unity Doorstop loader (winhttp.dll) https://github.com/NeighTools/UnityDoorstop
+    LGPL-2.1, unmodified binary from the BepInEx release; source at the link above; see UnityDoorstop-LICENSE.txt
+
+LiteNetLib 0.9.5.2, compiled into PCBSCoop.dll
+  https://github.com/RevenantX/LiteNetLib - MIT License, see LiteNetLib-LICENSE.txt
+  One change: NetSerializer matches [IgnoreDataMember] by name, because the game's runtime has no
+  System.Runtime.Serialization.dll.
+
+PC Building Simulator is a game by The Irregular Corporation. This package contains none of its files.
